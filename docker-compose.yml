@@ -1,6 +1,7 @@
 version: '3'
 services:
   tetris:
-    build: .
+    image: ghcr.io/bonnie-ai-code/atmos-project:latest
     ports:
       - "8080:80"
+    restart: always
